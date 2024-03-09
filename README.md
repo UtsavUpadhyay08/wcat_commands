@@ -31,9 +31,3 @@ This project is a command-line tool that executes various commands similar to th
 - `>>`: Appends output to a file.
   - Example: `w-c-at -n filename1 >> filename2`
 
-## Installation
-
-1. Clone the repository: `git clone https://github.com/your_username/w-cat.git`
-2. Navigate to the project directory: `cd w-cat`
-3. Run the installation script: `./install.sh`
-
