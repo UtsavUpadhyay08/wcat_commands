@@ -7,6 +7,7 @@ This project is a command-line tool that executes various commands similar to th
 - **Line numbering (-n):** Adds numbers to each line of the specified file(s).
 - **Non-empty line numbering (-b):** Adds numbers to each non-empty line of the specified file(s).
 - **Single line conversion (-s):** Converts multiple lines into a single line.
+- **Multiple Commands(e.g., -n -s):** Multiple commands could be applied together except for -n and -b as their operations clash.
 
 ## Usage
 
@@ -25,9 +26,9 @@ This project is a command-line tool that executes various commands similar to th
 
 ### Redirecting Output
 
-- `>`: Writes output to a file.
+- `>`: Writes output of commands to a file.
   - Example: `w-c-at -n filename1 > filename2`
 
-- `>>`: Appends output to a file.
+- `>>`: Appends output of commands to a file.
   - Example: `w-c-at -n filename1 >> filename2`
 
