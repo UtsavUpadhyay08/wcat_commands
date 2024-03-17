@@ -20,9 +20,9 @@ This project is a command-line tool that executes various commands similar to th
 
 ### Examples
 
-- Line numbering: `w-c-at -n filename1 filename2`
-- Non-empty line numbering: `w-c-at -b filename1 filename2`
-- Single line conversion: `w-c-at -s filename1 filename2`
+- Line numbering: `w-c-at -n filename1 filename2 filename3 ...`
+- Non-empty line numbering: `w-c-at -b filename1 filename2 filename3 ...`
+- Single line conversion: `w-c-at -s filename1 filename2 filename3 ...`
 
 ### Redirecting Output
 
